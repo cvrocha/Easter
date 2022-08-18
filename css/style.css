@@ -1,0 +1,173 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Calibri, sans-serif;
+	font-size: 18px;
+}
+
+.logo{
+	background: url("../images/iconeeeee.png") -10px 4px;
+	background-size: left;
+	background-size: 50px;
+	border-image-source: 1px;
+	background-color: RGBa(0,0,0,0);
+	float: left;
+	color: #FFF;
+	font-size: 50px;
+	font-family: "Monotype Corsiva";
+	text-shadow: 1px 1px #000;
+	padding-left: 1px;
+	padding-top: 1px;
+}
+
+.img{
+
+background-image: url("../images/iconeeee.png");
+
+
+}
+#menu{
+	font-family: "Bebas Neue";
+	background-color: RGBa(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	text-align: center;
+}
+
+#menu li{
+	display: inline;
+	line-height: 50px;
+}
+
+#menu a:link, a:visited{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	color: #FFF;
+	text-shadow: #000 1px 1px;
+}
+
+#menu a:hover, a:active{
+	background-color: #262626;
+	color: #FFF;
+	text-shadow: #000 1px 1px;
+}
+
+#banner{
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+#about{
+	height: 750px;
+	background-color: #A6A6A6;
+	color: #FFF;	
+	font-size: 1.5em;
+}
+
+h1{
+	color: #F21d2f;
+	padding-top: 100px;
+	padding-left: 50px;
+	text-align: left !important;
+}
+
+#about p{
+	padding: 50px;
+}
+
+#gallery{
+	height: 750px;
+	background-color: #F2BC79;
+	color: #F21d2f;	
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+#gallery .galeria{
+	width: 380px;
+	height: 240px;
+	margin: 20px;
+	border: 1px #FFF solid;
+	border-radius: 5px;
+	box-shadow: 5px 5px 25px #000; 
+}
+
+#maps{
+    height: 750px;
+    background-color: #A6A6A6;
+	color: #F21d2f;	
+	font-size: 1.5em;
+	padding-top: 1px;
+	background-color: #A6A6A6;
+	text-align: center;
+	}
+
+h1{
+	color: #F21d2f;
+	padding-top: 5px;
+	padding-left: 50px;
+	text-align: left !important;
+}
+
+
+#contacts{
+	background-color: #262626;
+	font-size: 1.5em;
+	height: 750px;
+	text-align: center;
+	color: #FFF;	
+}
+
+#contacts label{
+	display: block;
+
+}
+
+#contacts input, textarea{
+	width: 500px;
+	font-size: 0.7em;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+#contacts button{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	padding: 15px;
+	margin-top: 10px;
+	background-color: #A6A6A6;
+	border: none;
+	color: #FFF;	
+}
+
+#contacts button:hover{
+	background-color: #A6A6A6;
+	color: #FFF;	
+}
+
+footer{
+	background-color: #A6A6A6;
+	color: #262626;	
+	line-height: 60px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
