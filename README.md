@@ -5,7 +5,7 @@
 **<h3>➡️&nbsp;https://cvrocha.github.io/Pascoa ⬅️&nbsp;</h3>**
 
 #
-![cvrocha github io_First-Bikcraft_](https://user-images.githubusercontent.com/62439381/185506504-7f681673-e393-4080-a19f-0ebbe8f96514.png)
+![cvrocha github io_Pascoa_](https://user-images.githubusercontent.com/62439381/185640231-c898562a-0779-49df-a647-486b12d0bf28.png)
 
 ## Sobre 📝
 Esse é um site de pascoa, um projeto feito pela faculdade
