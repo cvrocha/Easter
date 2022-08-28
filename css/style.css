@@ -35,7 +35,7 @@ nav{
 
 #menu{
 	font-family: "Raleway", sans-serif;
-	background-color: RGBa(0,0,0,1);
+	background-color: rgb(26, 26, 26);	
 	position: fixed;
 	width: 100%;
 	text-align: center;
@@ -109,7 +109,7 @@ h1{
 
 #about p{
 	padding: 0 50px;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	font-style: italic;
 	font-weight: 500;
 	font-family: "Raleway", sans-serif;
@@ -231,7 +231,7 @@ align-items: center;
 }
 footer {
 padding: 20px 0;
-	background-color: #000;
+	background-color: rgb(26, 26, 26);	
 }
 footer .copyright {
 	text-align: center;
