@@ -5,7 +5,7 @@
 **<h3>➡️&nbsp;https://cvrocha.github.io/Easter ⬅️&nbsp;</h3>**
 
 #
-![cvrocha github io_Pascoa_](https://user-images.githubusercontent.com/62439381/185640231-c898562a-0779-49df-a647-486b12d0bf28.png)
+![cvrocha github io_Pascoa_](https://user-images.githubusercontent.com/62439381/187089405-dbb242a3-9c88-4406-8ca8-798e77095936.jpg)
 
 ## Sobre 📝
 Esse é um site de pascoa, um projeto feito pela faculdade
