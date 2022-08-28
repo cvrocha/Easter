@@ -5,14 +5,17 @@
 }
 
 body{
-	font-family: Calibri, sans-serif;
 	font-size: 18px;
+	background: #fff;
+  color: #2f3138;
+  font-family: "Open Sans", sans-serif;
 }
 
 .logo{
 	background: url("../images/iconeeeee.png") -10px 4px;
 	background-size: left;
 	background-size: 50px;
+	background-repeat: no-repeat;
 	border-image-source: 1px;
 	background-color: RGBa(0,0,0,0);
 	float: left;
@@ -24,18 +27,19 @@ body{
 	padding-top: 1px;
 }
 
-.img{
-
-background-image: url("../images/iconeeee.png");
-
-
+nav{
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 #menu{
-	font-family: "Bebas Neue";
-	background-color: RGBa(0,0,0,0.5);
+	font-family: "Raleway", sans-serif;
+	background-color: RGBa(0,0,0,1);
 	position: fixed;
 	width: 100%;
 	text-align: center;
+	height: 80px;
 }
 
 #menu li{
@@ -44,54 +48,94 @@ background-image: url("../images/iconeeee.png");
 }
 
 #menu a:link, a:visited{
-	text-transform: uppercase;
 	text-decoration: none;
-	padding: 20px;
-	color: #FFF;
-	text-shadow: #000 1px 1px;
+  color: rgba(202, 206, 221, 0.8);
+  font-weight: 600;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  transition: 0.3s;
+  padding: 6px 35px;
 }
 
 #menu a:hover, a:active{
-	background-color: #262626;
 	color: #FFF;
 	text-shadow: #000 1px 1px;
 }
 
 #banner{
-	background-image: url("../images/banner.jpg");
+	background-image: url("https://user-images.githubusercontent.com/62439381/187048902-274f1fd7-8820-47c2-9f44-e523c55a4d97.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 500px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#banner h1{
+	color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    border: none;
+    margin: 260px 0;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+#banner h1 span {
+	color: #F21d2f;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
 }
 
 #about{
 	height: 750px;
-	background-color: #A6A6A6;
-	color: #FFF;	
-	font-size: 1.5em;
+	background-color: #f6f7fd;;
+	color: rgb(26, 26, 26);	
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 h1{
-	color: #F21d2f;
-	padding-top: 100px;
-	padding-left: 50px;
-	text-align: left !important;
+	font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #F21d2f;
+		text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    border-bottom: 3px solid rgb(26, 26, 26);	
+    margin: 50px 0;
 }
 
 #about p{
-	padding: 50px;
+	padding: 0 50px;
+	font-size: 1.3rem;
+	font-style: italic;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
+}
+
+.container-textos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 50px;
 }
 
 #gallery{
 	height: 750px;
-	background-color: #F2BC79;
+	background-color: #fff;
 	color: #F21d2f;	
 	font-size: 1.5em;
 	text-align: center;
 }
 
-
+.container-galeria{
+	display: grid;
+	grid-template-columns:  1fr 1fr;
+	justify-items: center;
+}
 #gallery .galeria{
 	width: 380px;
 	height: 240px;
@@ -102,29 +146,57 @@ h1{
 }
 
 #maps{
-    height: 750px;
-    background-color: #A6A6A6;
+	height: 750px;
+  background-color: #f6f7fd;;
 	color: #F21d2f;	
 	font-size: 1.5em;
 	padding-top: 1px;
-	background-color: #A6A6A6;
+	background-color: #f6f7fd;;
 	text-align: center;
+	display: flex;
+    flex-direction: column;
+    gap: 108px;
 	}
 
-h1{
-	color: #F21d2f;
-	padding-top: 5px;
-	padding-left: 50px;
-	text-align: left !important;
+.container-video{
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
+.video{
+	float: center;
+	border: 1px #FFF solid; border-radius: 5px;
+	box-shadow: 5px 5px 25px #000;  
+	max-width: 100%;
+}
 
 #contacts{
-	background-color: #262626;
+	background-color: #fff;
 	font-size: 1.5em;
 	height: 750px;
 	text-align: center;
-	color: #FFF;	
+	color: rgb(26, 26, 26);	
+	display: flex;
+	flex-direction: column;
+	gap: 108px;
+}
+
+.textos-contatos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.textos-contatos p {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+	color: #9195a2;
+	margin-bottom: 10px;
 }
 
 #contacts label{
@@ -137,6 +209,8 @@ h1{
 	font-size: 0.7em;
 	padding: 10px;
 	margin-bottom: 5px;
+	border-radius: 5px;
+    box-shadow: 0px 0px 3px #000;
 }
 
 #contacts button{
@@ -144,24 +218,42 @@ h1{
 	text-transform: uppercase;
 	padding: 15px;
 	margin-top: 10px;
-	background-color: #A6A6A6;
-	border: none;
-	color: #FFF;	
+	background-color: #f6f7fd;;
+	border: 1px solid rgb(26, 26, 26);	
+	color: rgb(26, 26, 26);	
+	transition: all ease-in-out 0.2s;
+	border-radius: 5px;
 }
 
 #contacts button:hover{
-	background-color: #A6A6A6;
-	color: #FFF;	
+	background-color:  rgb(26, 26, 26);	
+	color: #f6f7fd;
 }
-
-footer{
-	background-color: #A6A6A6;
-	color: #262626;	
-	line-height: 60px;
+footer {
+padding: 20px 0;
+	background-color: #000;
+}
+footer .copyright {
 	text-align: center;
+	color: #f1f1f1;
 }
-
-
+footer .credits {
+	text-align: center;
+	font-size: 13px;
+	color: #fff;
+}
+footer .credits a {
+	color: #F21d2f;
+	text-decoration: none;
+	transition: 0.5s;
+}
+footer .credits a:hover,
+footer .credits a:active,
+footer .credits a:focus {
+	color: #F21d2f;
+	outline: none;
+	text-decoration: underline;
+}
 
 
 
