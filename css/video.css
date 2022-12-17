@@ -1,0 +1,11 @@
+.container-video{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.video{
+	float: center;
+	border: 1px #FFF solid; border-radius: 5px;
+	box-shadow: 5px 5px 25px #000;  
+	max-width: 100%;
+}

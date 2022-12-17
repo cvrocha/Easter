@@ -1,0 +1,28 @@
+footer {
+  padding: 20px 0;
+  background-color: rgb(26, 26, 26);	
+}
+footer .copyright {
+  text-align: center;
+  color: #f1f1f1;
+}
+footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  margin-top: 10px;
+}
+footer .credits a {
+  color: #F21d2f;
+  text-decoration: none;
+  transition: 0.5s;
+}
+footer .credits a:hover,
+footer .credits a:active,
+footer .credits a:focus {
+  color: #a50f1c;
+  outline: none;
+}
+footer .credits-name{
+  text-decoration: underline !important;
+}

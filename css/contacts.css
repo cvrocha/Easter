@@ -1,0 +1,64 @@
+#maps{
+	height: 750px;
+  background-color: #fff;
+	color: #F21d2f;	
+	font-size: 1.5em;
+	padding-top: 1px;
+	text-align: center;
+	display: flex;
+  flex-direction: column;
+  gap: 108px;
+}
+#contacts{
+	background-color: #f6f7fd;
+	font-size: 1.5em;
+	height: 750px;
+	text-align: center;
+	color: rgb(26, 26, 26);	
+	display: flex;
+	flex-direction: column;
+	gap: 108px;
+}
+.textos-contatos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.textos-contatos p {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+	color: #9195a2;
+	margin-bottom: 10px;
+}
+#contacts label{
+	display: block;
+}
+#contacts input, textarea{
+	width: 500px;
+	font-size: 0.7em;
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+  box-shadow: 0px 0px 3px #000;
+}
+#contacts button{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	padding: 15px;
+	margin-top: 10px;
+	background-color: #f6f7fd;;
+	border: 1px solid rgb(26, 26, 26);	
+	color: rgb(26, 26, 26);	
+	box-shadow: 0px 0px 3px #000;
+	transition: all ease-in-out 0.2s;
+	border-radius: 5px;
+}
+#contacts button:hover{
+	background-color:  rgb(26, 26, 26);	
+	color: #f6f7fd;
+	cursor: pointer;
+}
